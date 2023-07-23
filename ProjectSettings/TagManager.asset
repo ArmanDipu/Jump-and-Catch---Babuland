@@ -38,9 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Bg
+    uniqueID: 1347013021
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: BouncingObjects
-    uniqueID: 1347013021
+  - name: Top
+    uniqueID: 3769315285
+    locked: 0
+  - name: UI
+    uniqueID: 3697920615
     locked: 0
