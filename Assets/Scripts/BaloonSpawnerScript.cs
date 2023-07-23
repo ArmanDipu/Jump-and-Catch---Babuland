@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WatermelonSpawnerScript : MonoBehaviour
 {
-    public GameObject watermelon;
+    public GameObject balloon;
     public float spawnRate = 1.5f;
     private float timer = 0;
     public float spawnRadiaus = 0;
@@ -19,17 +19,17 @@ public class WatermelonSpawnerScript : MonoBehaviour
     void Update()
     {
         if(timer > spawnRate) {
-            spawnWatermelon();
+            spawnBalloon();
             timer = 0;
         }
         timer += Time.deltaTime;
     }
 
-    void spawnWatermelon()
+    void spawnBalloon()
     {
         float leftSpawnPoint = transform.position.x - spawnRadiaus;
         float rightSpawnPoint = transform.position.x + spawnRadiaus;
-        Instantiate(watermelon, new Vector3(
+        Instantiate(balloon, new Vector3(
             Random.Range(leftSpawnPoint, rightSpawnPoint),
             transform.position.y,
             transform.position.z
