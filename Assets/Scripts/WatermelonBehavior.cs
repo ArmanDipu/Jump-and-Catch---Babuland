@@ -11,7 +11,7 @@ public class WatermelonBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        melonRigidbody2D.velocity = new Vector2(Random.Range(-3, 3), melonRigidbody2D.velocity.y);
+        melonRigidbody2D.velocity = new Vector2(Random.Range(-2.5f, 2.5f), melonRigidbody2D.velocity.y);
     }
 
     // Update is called once per frame
