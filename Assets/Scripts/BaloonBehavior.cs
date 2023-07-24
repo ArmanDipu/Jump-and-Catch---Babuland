@@ -8,14 +8,16 @@ public class WatermelonBehavior : MonoBehaviour
 {
     public Rigidbody2D balloonRigidbody2D;
     private Collider2D catchCollider2D;
+    private GameManager gamemanager;
     public float lifeTime = 5f;
     private float timer = 0f;
 
     // Start is called before the first frame update
     void Start()
     {
+        gamemanager= GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         catchCollider2D = GameObject.FindGameObjectWithTag("hasCatchCollider2D").GetComponent<Collider2D>();
-        balloonRigidbody2D.velocity = new Vector2(Random.Range(-1f, 1f), balloonRigidbody2D.velocity.y);
+        balloonRigidbody2D.velocity = new Vector2(Random.Range(-.5f, .5f), balloonRigidbody2D.velocity.y);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -24,6 +26,7 @@ public class WatermelonBehavior : MonoBehaviour
         {
             Debug.Log("Balloon Caught");
             Destroy(gameObject);
+            gamemanager.addScore();
         }
     }
 
@@ -33,6 +36,7 @@ public class WatermelonBehavior : MonoBehaviour
         if(timer > lifeTime)
         {
             Destroy(gameObject);
+            gamemanager.redeuceHealth();
         }
         else
         {
