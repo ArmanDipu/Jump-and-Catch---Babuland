@@ -13,13 +13,8 @@ GameObject:
   - component: {fileID: 1646473025327215534}
   - component: {fileID: 1780604307299991096}
   - component: {fileID: 2173888619251845957}
-<<<<<<<< Updated upstream:Assets/Prefabs/Watermelon.prefab
   m_Layer: 0
   m_Name: Watermelon
-========
-  m_Layer: 7
-  m_Name: Bomb
->>>>>>>> Stashed changes:Assets/Prefabs/Bomb.prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,11 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<<< Updated upstream:Assets/Prefabs/Watermelon.prefab
   m_RootOrder: 7
-========
-  m_RootOrder: 6
->>>>>>>> Stashed changes:Assets/Prefabs/Bomb.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2295820186620079797
 SpriteRenderer:
@@ -84,18 +75,13 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -525652011
   m_SortingLayer: 1
-<<<<<<<< Updated upstream:Assets/Prefabs/Watermelon.prefab
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8eecea717405d0b428eb22a21bc99aa4, type: 3}
-========
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 6dccb5a662dfa6045ba50b53d61d9145, type: 3}
->>>>>>>> Stashed changes:Assets/Prefabs/Bomb.prefab
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 4.34, y: 4.1}
+  m_Size: {x: 2.95, y: 2.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -148,15 +134,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-<<<<<<<< Updated upstream:Assets/Prefabs/Watermelon.prefab
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-========
-  m_Mass: 0.5
-  m_LinearDrag: 0
-  m_AngularDrag: 0
->>>>>>>> Stashed changes:Assets/Prefabs/Bomb.prefab
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -181,10 +161,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c512b3009843879438bc3af034906f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<<< Updated upstream:Assets/Prefabs/Watermelon.prefab
   melonRigidbody2D: {fileID: 1780604307299991096}
-========
-  bombRigidbody2D: {fileID: 1780604307299991096}
-  playerCollider2D: {fileID: 0}
-  lifeTime: 4
->>>>>>>> Stashed changes:Assets/Prefabs/Bomb.prefab
