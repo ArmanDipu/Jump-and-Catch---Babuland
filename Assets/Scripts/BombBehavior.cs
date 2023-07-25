@@ -4,10 +4,10 @@ using System.Runtime.CompilerServices;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class WatermelonBehavior : MonoBehaviour
+public class BombBehavior : MonoBehaviour
 {
-    public Rigidbody2D balloonRigidbody2D;
-    private Collider2D catchCollider2D;
+    public Rigidbody2D bombRigidbody2D;
+    private Collider2D bombCollider2D;
     private GameManager gamemanager;
     public float lifeTime = 5f;
     private float timer = 0f;
@@ -16,17 +16,17 @@ public class WatermelonBehavior : MonoBehaviour
     void Start()
     {
         gamemanager= GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
-        catchCollider2D = GameObject.FindGameObjectWithTag("hasCatchCollider2D").GetComponent<Collider2D>();
-        balloonRigidbody2D.velocity = new Vector2(Random.Range(-.5f, .5f), balloonRigidbody2D.velocity.y);
+        bombCollider2D = GameObject.FindGameObjectWithTag("hasBombCollider2D").GetComponent<Collider2D>();
+        bombRigidbody2D.velocity = new Vector2(Random.Range(-2.5f, 2.5f), bombRigidbody2D.velocity.y);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision == catchCollider2D)
+        if (collision == bombCollider2D)
         {
-            Debug.Log("Balloon Caught");
+            Debug.Log("Explosion !");
             Destroy(gameObject);
-            gamemanager.addScore();
+            gamemanager.redeuceHealth();
         }
     }
 
@@ -36,7 +36,6 @@ public class WatermelonBehavior : MonoBehaviour
         if(timer > lifeTime)
         {
             Destroy(gameObject);
-            gamemanager.redeuceHealth();
         }
         else
         {
