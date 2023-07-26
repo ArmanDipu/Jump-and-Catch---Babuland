@@ -678,7 +678,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86998613}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.58, z: 0}
+  m_LocalPosition: {x: 0, y: -3.16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -717,9 +717,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -4}
   serializedVersion: 2
-  m_Radius: 0.75
+  m_Radius: 3
 --- !u!1 &123234834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1969,7 +1969,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.25, y: 3.25}
+  m_Size: {x: 7, y: 15}
   m_EdgeRadius: 0
 --- !u!1 &652600012
 GameObject:
@@ -2628,11 +2628,6 @@ MonoBehaviour:
   bomb: {fileID: 7728012604061901898, guid: 593c1e725cf560f41b371885f06a169e, type: 3}
   spawnRate: 7
   spawnRadiaus: 3
---- !u!50 &875582480 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5990200982401567008, guid: d1948750fa9f4b9429fde6502cce7ef4, type: 3}
-  m_PrefabInstance: {fileID: 55729872518773746}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &882200555
 GameObject:
   m_ObjectHideFlags: 0
@@ -3099,9 +3094,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.25}
+  m_Offset: {x: 0, y: 1.5}
   serializedVersion: 2
-  m_Radius: 0.75
+  m_Radius: 5
 --- !u!1 &997345677
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,9 +3332,10 @@ GameObject:
   - component: {fileID: 1103889304}
   - component: {fileID: 1103889303}
   - component: {fileID: 1103889307}
+  - component: {fileID: 1103889308}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: hasPlayerAnimator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3403,18 +3399,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.25}
+  m_Offset: {x: 0, y: -1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.63, y: 3.41}
+    oldSize: {x: 9.820001, y: 14.530001}
     newSize: {x: 1.63, y: 3.41}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 3}
+  m_Size: {x: 5, y: 12}
   m_EdgeRadius: 0
 --- !u!212 &1103889305
 SpriteRenderer:
@@ -3457,7 +3453,7 @@ SpriteRenderer:
   m_SortingLayerID: -525652011
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: -1622241270, guid: 320ab2296ac40374d97fb89c0d4d1d8f, type: 3}
+  m_Sprite: {fileID: 1386337067, guid: b1cee5bb52ab5df419549156b015923e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3477,7 +3473,7 @@ Transform:
   m_GameObject: {fileID: 1103889302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.01, y: 1.65, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.15, y: 0.175, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 86998614}
@@ -3503,9 +3499,31 @@ MonoBehaviour:
   lanableLayer:
     serializedVersion: 2
     m_Bits: 64
+  animator: {fileID: 1103889308}
   jumpSpeed: 7
   moveSpeed: 2
   joystick: {fileID: 1466024934}
+--- !u!95 &1103889308
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103889302}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 507e318fbe313a64ea7c9daf054182e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1219209592
 GameObject:
   m_ObjectHideFlags: 0
@@ -4875,10 +4893,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6196160675653469039, guid: d1948750fa9f4b9429fde6502cce7ef4, type: 3}
-      propertyPath: melonRigidbody2D
-      value: 
-      objectReference: {fileID: 875582480}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

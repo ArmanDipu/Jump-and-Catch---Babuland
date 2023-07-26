@@ -1,0 +1,1218 @@
+fileFormatVersion: 2
+guid: b1cee5bb52ab5df419549156b015923e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_0
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 2576
+        width: 982
+        height: 1453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b90bf45831c1424ea1f96170833ddd6
+      internalID: 1386337067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_1
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 3984
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72818c046cad27f4ea5fecbc90f67184
+      internalID: -78725438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_2
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 2545
+        width: 1570
+        height: 1449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a008f9d459280c746b6938beba08c880
+      internalID: 1927855698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_3
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 3984
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61522081d967874ca4ae7a7516c8990
+      internalID: -2016002629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_4
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 2530
+        width: 1385
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee7d41fc9069894db60ee4d29a58376
+      internalID: 210853389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_5
+      rect:
+        serializedVersion: 2
+        x: 5299
+        y: 2490
+        width: 889
+        height: 1582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67092d275dc2ec54eb4982324beceef0
+      internalID: -1241283351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_6
+      rect:
+        serializedVersion: 2
+        x: 6752
+        y: 2592
+        width: 1035
+        height: 1449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae226cb2f290bb47baf5f8440e76250
+      internalID: -2099428663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_7
+      rect:
+        serializedVersion: 2
+        x: 5250
+        y: 3773
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbcc965e27b05a42a4aec8fdbac0696
+      internalID: 458658805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_8
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 3609
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f771f4af342d739449600676e9c50ce5
+      internalID: -1901649270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_9
+      rect:
+        serializedVersion: 2
+        x: 5273
+        y: 3562
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0974dc9f6f033d042bd3e1c046fb6991
+      internalID: -1251867576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_10
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 3492
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a093afab8946442a2bc787c8472635
+      internalID: -1287653265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_11
+      rect:
+        serializedVersion: 2
+        x: 7805
+        y: 3305
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63822dbd1062d2489203ca7f1390a21
+      internalID: 1992168116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_12
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 3281
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd00c9290ae290342ab5fd3dadba1c9c
+      internalID: -775421397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_13
+      rect:
+        serializedVersion: 2
+        x: 7805
+        y: 3211
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85e45bca79c47a48b58c354a4d7792d
+      internalID: -1070979628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_14
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 3164
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195685169587ba54cb51b5a1604e02b8
+      internalID: 530072686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_15
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 3187
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a113208457678429af8dad4ed0773f
+      internalID: -1954761070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2555
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf49384b1642c0a479423dd6394ef6ec
+      internalID: -2144008434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_17
+      rect:
+        serializedVersion: 2
+        x: 6984
+        y: 2555
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017611ad49de05146805fb97981a3415
+      internalID: 1449257923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_18
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2531
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021232941df7ffb408ae6957a464ed85
+      internalID: 1695589715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_19
+      rect:
+        serializedVersion: 2
+        x: 2273
+        y: 2531
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c873c6b84b102c04bb85ee1a9fef71b8
+      internalID: 350557934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_20
+      rect:
+        serializedVersion: 2
+        x: 6117
+        y: 2484
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b878c56da1448a3468f6019893cc7aab
+      internalID: -995090414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_21
+      rect:
+        serializedVersion: 2
+        x: 5648
+        y: 2273
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d3c8937abe0ca46b8c55f540f92b74
+      internalID: -859326193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_22
+      rect:
+        serializedVersion: 2
+        x: 5695
+        y: 2277
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781d9ba0ccaa2df409b97054b02680b2
+      internalID: 1962983668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_23
+      rect:
+        serializedVersion: 2
+        x: 5766
+        y: 2273
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295b09543b107db4b86780cc856c5935
+      internalID: -639846418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_24
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 2133
+        width: 71
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612a311b04d7fc148be1182228c64bd3
+      internalID: -229273628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_25
+      rect:
+        serializedVersion: 2
+        x: 5299
+        y: 557
+        width: 889
+        height: 1714
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d917f9e0d745845bf71d86d2449426
+      internalID: 1769278800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_26
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 2133
+        width: 70
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 417a722938d01c344a4cdb856692d2b3
+      internalID: 992856597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_27
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 639
+        width: 968
+        height: 1457
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36084575aeeec5744bb758f43883f76a
+      internalID: 999952538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_28
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 608
+        width: 1566
+        height: 1453
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853d2bc57d6dd93439f46d74b60d7ed2
+      internalID: 813200219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_29
+      rect:
+        serializedVersion: 2
+        x: 3279
+        y: 604
+        width: 1367
+        height: 1503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aae46fa0a958d4abaad195e2549992
+      internalID: 507787216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_30
+      rect:
+        serializedVersion: 2
+        x: 6178
+        y: 1983
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3d7e4124383954b80c4731733e550b
+      internalID: 1087965546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_31
+      rect:
+        serializedVersion: 2
+        x: 6752
+        y: 658
+        width: 1035
+        height: 1449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5536757b68663dd4da774e341f4a3150
+      internalID: 1950120319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_32
+      rect:
+        serializedVersion: 2
+        x: 6211
+        y: 1922
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f9ab5d3835bfa4885ea0944214dd23
+      internalID: 2049888732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_33
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 1875
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b3638ccf9c24b4896d4d4eaf4c0321
+      internalID: -409960200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_34
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 1734
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87baa62b5b659dc46b19def13431394c
+      internalID: -993627600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_35
+      rect:
+        serializedVersion: 2
+        x: 4659
+        y: 1725
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a065a8954bf0de42b9125f6403a2e48
+      internalID: -817721174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_36
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 1687
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479c3788fb5ed5e4bae8e107c879146d
+      internalID: -96667480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_37
+      rect:
+        serializedVersion: 2
+        x: 5273
+        y: 1617
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b1d484ba781e840a0e3a606f82b9cd
+      internalID: 1618652704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_38
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 1570
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea4f373304cb3b439a1059ce99adb8e
+      internalID: 2098344003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_39
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1430
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0deeac7444d4e4e8ee3f2579aaee6b
+      internalID: -75897091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_40
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1268
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a828c97bc6a4e3941a9c5b531ac06502
+      internalID: -1176950038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_41
+      rect:
+        serializedVersion: 2
+        x: 6703
+        y: 1242
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2295cc99a025f4887e8e750ceb0bf7
+      internalID: -2015169705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_42
+      rect:
+        serializedVersion: 2
+        x: 6937
+        y: 656
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fe893a7ddc0aa40bfad1b67586c44c
+      internalID: -111187902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_43
+      rect:
+        serializedVersion: 2
+        x: 7219
+        y: 633
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f5a0608284c17479e245cc2528427f
+      internalID: 395122016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_44
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 633
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1596e107a5108f4b83407eefa705a31
+      internalID: -2027909434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_45
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 609
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b6a634b5bdb9c4aabf0d9ff4ea24da
+      internalID: 1999442203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_46
+      rect:
+        serializedVersion: 2
+        x: 7148
+        y: 609
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e255ed9858ffc494aaf2659e82428e0b
+      internalID: -1501816751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_47
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 562
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc810d29dbbaf748bd0a61d2d5e4406
+      internalID: 2010679996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KIKI_JUMP-01_48
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 562
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9728591ac97f84bab85e00e1479341
+      internalID: 657683362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KIKI_JUMP-01_0: 1386337067
+      KIKI_JUMP-01_1: -78725438
+      KIKI_JUMP-01_10: -1287653265
+      KIKI_JUMP-01_11: 1992168116
+      KIKI_JUMP-01_12: -775421397
+      KIKI_JUMP-01_13: -1070979628
+      KIKI_JUMP-01_14: 530072686
+      KIKI_JUMP-01_15: -1954761070
+      KIKI_JUMP-01_16: -2144008434
+      KIKI_JUMP-01_17: 1449257923
+      KIKI_JUMP-01_18: 1695589715
+      KIKI_JUMP-01_19: 350557934
+      KIKI_JUMP-01_2: 1927855698
+      KIKI_JUMP-01_20: -995090414
+      KIKI_JUMP-01_21: -859326193
+      KIKI_JUMP-01_22: 1962983668
+      KIKI_JUMP-01_23: -639846418
+      KIKI_JUMP-01_24: -229273628
+      KIKI_JUMP-01_25: 1769278800
+      KIKI_JUMP-01_26: 992856597
+      KIKI_JUMP-01_27: 999952538
+      KIKI_JUMP-01_28: 813200219
+      KIKI_JUMP-01_29: 507787216
+      KIKI_JUMP-01_3: -2016002629
+      KIKI_JUMP-01_30: 1087965546
+      KIKI_JUMP-01_31: 1950120319
+      KIKI_JUMP-01_32: 2049888732
+      KIKI_JUMP-01_33: -409960200
+      KIKI_JUMP-01_34: -993627600
+      KIKI_JUMP-01_35: -817721174
+      KIKI_JUMP-01_36: -96667480
+      KIKI_JUMP-01_37: 1618652704
+      KIKI_JUMP-01_38: 2098344003
+      KIKI_JUMP-01_39: -75897091
+      KIKI_JUMP-01_4: 210853389
+      KIKI_JUMP-01_40: -1176950038
+      KIKI_JUMP-01_41: -2015169705
+      KIKI_JUMP-01_42: -111187902
+      KIKI_JUMP-01_43: 395122016
+      KIKI_JUMP-01_44: -2027909434
+      KIKI_JUMP-01_45: 1999442203
+      KIKI_JUMP-01_46: -1501816751
+      KIKI_JUMP-01_47: 2010679996
+      KIKI_JUMP-01_48: 657683362
+      KIKI_JUMP-01_5: -1241283351
+      KIKI_JUMP-01_6: -2099428663
+      KIKI_JUMP-01_7: 458658805
+      KIKI_JUMP-01_8: -1901649270
+      KIKI_JUMP-01_9: -1251867576
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

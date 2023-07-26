@@ -9,18 +9,21 @@ public class MelonBehavior : MonoBehaviour
     private GameManager gamemanager;
     public float lifeTime = 7f;
     private float timer = 0f;
+    private Animator playerAnimator;
 
     // Start is called before the first frame update
     void Start()
     {
         gamemanager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         melonCollider2D = GameObject.FindGameObjectWithTag("hasCatchCollider2D").GetComponent<Collider2D>();
+        playerAnimator = GameObject.FindGameObjectWithTag("hasPlayerAnimator").GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision == melonCollider2D)
         {
+            playerAnimator.SetTrigger("MelonCaught");
             Debug.Log("Melon Caught");
             Destroy(gameObject);
             gamemanager.addScore();
