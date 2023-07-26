@@ -36,11 +36,11 @@ public class MelonSpawnerScript : MonoBehaviour
             );
         if(!isRightSpawner)
         {
-            obj.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(7,11), Random.Range(7,11));
+            obj.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(8,11), Random.Range(8,11));
         }
         else
         {
-            obj.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-7, -11), Random.Range(7, 11));
+            obj.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-8, -11), Random.Range(8, 11));
         }
     }
 }

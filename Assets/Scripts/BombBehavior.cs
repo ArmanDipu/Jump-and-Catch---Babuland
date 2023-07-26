@@ -9,6 +9,7 @@ public class BombBehavior : MonoBehaviour
     public Rigidbody2D bombRigidbody2D;
     private Collider2D bombCollider2D;
     private GameManager gamemanager;
+    private GameObject bombEffects;
     public float lifeTime = 5f;
     private float timer = 0f;
 
@@ -17,6 +18,7 @@ public class BombBehavior : MonoBehaviour
     {
         gamemanager= GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         bombCollider2D = GameObject.FindGameObjectWithTag("hasBombCollider2D").GetComponent<Collider2D>();
+        bombEffects = GameObject.FindGameObjectWithTag("hasBombEffect");
         bombRigidbody2D.velocity = new Vector2(Random.Range(-2.5f, 2.5f), bombRigidbody2D.velocity.y);
     }
 
@@ -24,8 +26,9 @@ public class BombBehavior : MonoBehaviour
     {
         if (collision == bombCollider2D)
         {
-            Debug.Log("Explosion !");
+            bombEffects.SetActive(true);
             Destroy(gameObject);
+            Instantiate(bombEffects, transform.position, transform.rotation);
             gamemanager.redeuceHealth();
         }
     }
@@ -35,6 +38,7 @@ public class BombBehavior : MonoBehaviour
     {
         if(timer > lifeTime)
         {
+            Instantiate(bombEffects, transform.position, transform.rotation);
             Destroy(gameObject);
         }
         else
